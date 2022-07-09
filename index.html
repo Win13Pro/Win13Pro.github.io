@@ -8,6 +8,25 @@
     </head>
     <body>
         <h1 align="center">欢迎来到Win13Pro的网站</h1>
+        <h3 class="term-time">现在时间：
+<script>window.onload=getTime;
+function getTime(){
+var today=new Date();
+var year=today.getFullYear();
+var month=today.getMonth()+1;
+var day=today.getDay();
+var hours=today.getHours();
+var minutes=today.getMinutes();
+var seconds=today.getSeconds();
+if(minutes<10){
+minutes="0"+minutes;
+}
+if(seconds<10){
+seconds="0"+seconds;
+}var time =year+'年'+month+'月'+day+'日'+hours+":"+minutes+":"+seconds;document.getElementById('clock').innerHTML=time;
+setInterval("getTime()",1000)
+}
+</script><div id="clock">2022年7月6日17:33:14</div></h3>  
         <body background="1.jpeg">
                 <div class="jumbotron">
     <div class="container">
@@ -18,7 +37,6 @@
                 
 <center><font size="5"><a href="https://win13pro.github.io/virus/" target="_blank">下载病毒样本</a></font> </center>
                 
-<br>
 <br>
 <br>
 <br>
